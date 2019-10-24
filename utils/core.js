@@ -11,7 +11,7 @@ module.exports = {
   },
   getUrl: function (n, o, i) {
     n = n.replace(/\//gi, ".");
-    var a = 'https://hexinshop.qiuxinpay.cn/app/ewei_shopv2_api.php?i=1' + "&r=" + n;
+    var a = 'https://hexinshop.qiuxinpay.com/app/ewei_shopv2_api.php?i=1' + "&r=" + n;
     return o && ("object" == (void 0 === o ? "undefined" : t(o)) ? a += "&" + e.param(o) : "string" == typeof o && (a += "&" + o)),
       a
   },

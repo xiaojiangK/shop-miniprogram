@@ -139,8 +139,8 @@ App({
     appid: "wxb976d839a7e84647",
     //api: "https://hexinshop.qiuxinpay.cn/app/ewei_shopv2_api.php?i=34",
     //approot: "https://hexinshop.qiuxinpay.cn/addons/ewei_shopv2/",
-    api: "https://hexinshop.qiuxinpay.cn/app/ewei_shopv2_api.php?i=1",
-    approot: "https://hexinshop.qiuxinpay.cn/addons/ewei_shopv2/",
+    api: "https://hexinshop.qiuxinpay.com/app/ewei_shopv2_api.php?i=1",
+    approot: "https://hexinshop.qiuxinpay.com/addons/ewei_shopv2/",
     userInfo: null
   }
 })
