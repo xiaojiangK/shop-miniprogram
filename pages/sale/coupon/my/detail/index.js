@@ -27,7 +27,7 @@ Page({
       return void wx.switchTab({
         url: "/pages/index/index"
       });
-    1 == a.coupontype ? t = "/pages/member/recharge/index" : 2 == a.coupontype && (t = "/pages/sale/coupon/my/index"),
+    1 == a.coupontype ? t = "/pages/member/recharge/index" : 2 == a.coupontype && (t = "/pages/sale/coupon/my/index/index"),
       wx.redirectTo({
         url: t
       })

@@ -61,7 +61,7 @@
   <navigator hover-class="none" class="btn btn-danger block" open-type="redirect" url="/pages/sale/coupon/index/index" style="margin: 0 20rpx 20rpx;">
     <div>继续领取优惠券</div>
   </navigator>
-  <navigator hover-class="none" open-type="redirect" style="margin: 0 20rpx 20rpx;" class="btn btn-default block" url="/pages/sale/coupon/my/index">
+  <navigator hover-class="none" open-type="redirect" style="margin: 0 20rpx 20rpx;" class="btn btn-default block" url="/pages/sale/coupon/my/index/index">
     <div>查看我的优惠券</div>
   </navigator>
 </view>
