@@ -72,6 +72,12 @@ Page({
       code: false
     })
   },
+  refundcancel: function (t) {
+    var t = this;
+    e.refundcancel(this.data.options.id, function () {
+      t.get_list()
+    })
+  },
   cancel: function (t) {
     var s = a.data(t).orderid;
     e.cancel(s, t.detail.value, "/pages/order/index?status=" + this.data.status)

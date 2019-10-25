@@ -1194,3 +1194,7 @@ picker-view-column {
   font-style: normal;
   padding: 4rpx 8rpx;
 }
+
+.picker-modal.in{
+  bottom: 96rpx !important
+}

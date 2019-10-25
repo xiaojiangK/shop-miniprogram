@@ -217,3 +217,7 @@ checkbox {
 .fui-list-angle {
   margin-right: 0;
 }
+
+.fui-footer{
+  bottom: 96rpx
+}

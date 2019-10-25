@@ -129,9 +129,7 @@
       <view class="fui-cell-info"></view>
     </view>
     <view class="fui-title" wx:if="{{rtypeIndex != 2 && order.refundstate == 0}}">您可退款的最大金额为
-      <text class="text-danger">￥
-        <text>{{order.refundprice}}</text>
-      </text>
+      <text class="text-danger">￥<text>{{order.refundprice}}</text></text>
     </view>
     <view class="fui-cell" wx:if="{{order.refundstate == 1}}">
       <view class="fui-cell-label">申请时间</view>

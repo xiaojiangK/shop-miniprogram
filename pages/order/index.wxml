@@ -77,7 +77,7 @@
               <navigator class="btn btn-default" url="/pages/order/refund/index" wx:if="{{item.canrefund}}">
                 {{item.refundtext}}
               </navigator>
-              <navigator class="btn btn-default-o btn-cancel" wx:if="{{item.cancancelrefund}}">
+              <navigator class="btn btn-default-o btn-cancel" bindtap="refundcancel" wx:if="{{item.cancancelrefund}}">
                 取消申请
               </navigator>
               <navigator class="btn btn-default" url="/pages/order/express/index?id={{item.id}}" wx:if="{{item.hasexpress}}">
