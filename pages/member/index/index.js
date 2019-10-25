@@ -30,7 +30,7 @@ Page({
   },
   getWidget() {
     r.post("/app/ewei_shopv2_api.php", {
-      i: 1,
+      i: 37,
       c: "site",
       a: "entry",
       m: "Lewei_shopv2",
