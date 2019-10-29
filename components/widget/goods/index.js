@@ -38,6 +38,7 @@ Component({
                         cateid,
                         groupid,
                         page: 1,
+                        sort: params.goodssort,
                         goodssort: params.goodssort,
                         pagesize: params.goodsnum,
                         r: 'shop.get_goods'
